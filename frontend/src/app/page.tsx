@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import Skills from "@/components/Skills";
 import ProjectCard from "@/components/ProjectCard";
 import ProjectModal from "@/components/ProjectModal";
 import type { Project } from "@/lib/projects";
@@ -28,7 +29,6 @@ export default function Page() {
       <Header />
       <Hero />
 
-
       <section id="projects" className="bg-white">
         <div className="container py-14 md:py-20">
           <div className="flex items-end justify-between gap-4">
@@ -51,6 +51,7 @@ export default function Page() {
         </div>
       </section>
 
+      <Skills /> 
 
       <footer className="border-t">
         <div className="container py-10 flex flex-col md:flex-row items-center justify-between gap-4">

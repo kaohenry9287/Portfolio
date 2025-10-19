@@ -1,4 +1,5 @@
 import type { Project } from "@/lib/projects";
+import Image from "next/image";
 
 
 type Props = { project: Project; onOpen: (p: Project) => void };
